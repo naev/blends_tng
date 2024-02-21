@@ -32,7 +32,7 @@ os.makedirs( os.path.dirname(blenderpath), exist_ok=True )
 # Export from blender
 bpy.ops.export_scene.gltf( filepath=blenderpath, export_format='GLTF_SEPARATE', \
         export_lights=False, export_cameras=False, export_normals=True, \
-        export_extras=True, export_apply=True )
+        export_extras=True, export_apply=True, use_visible=True )
 
 # And optimize
 ret = subprocess.run(["gltf-transform", "optimize", "--compress", "false", "--texture-compress", "auto", "--simplify", "false", "--texture-size", "1024", blenderpath, gltfpath ])
