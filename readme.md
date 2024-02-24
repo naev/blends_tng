@@ -38,3 +38,4 @@ When possible, it is recommended to bake ambient occlusion and emission maps for
 ## Notes
 
 * Some complicated models do not allow the above approach for baking textures because everything gets too small. In those cases, you can ignore baking (at least for now, unless you can simplify the models)
+* When baking the emission for the engine glow, make sure the normal emission is not enabled, and add it later manually with a program like gimp. If you want global illumination effects, it may make sense to bake the original emission into a texture instead of using it directly too
