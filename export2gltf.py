@@ -14,9 +14,10 @@ if "--" in argv:
     filename = argv[0]
 else:
     filename = bpy.data.filepath
+dirname = os.path.split(os.path.dirname(filename))[-1]
 shipname = os.path.splitext(os.path.basename(filename))[0]
 
-shipdir = os.path.abspath(os.path.join(OUTPATH, shipname))
+shipdir = os.path.abspath(os.path.join(OUTPATH, dirname))
 os.makedirs(shipdir, exist_ok=True)
 gltfpath = os.path.join(shipdir, shipname) + '.gltf'
 
