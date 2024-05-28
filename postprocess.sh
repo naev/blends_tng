@@ -20,3 +20,9 @@ p gltf/Ancestor/ancestor_dvaered.gltf 's/ancestor_dvaered.bin/ancestor.bin/' glt
 
 # Kestrel
 p gltf/Kestrel/kestrel_pirate.gltf 's/kestrel_pirate.bin/kestrel.bin/' gltf/Kestrel/kestrel_pirate.bin
+
+# Pacifier
+p gltf/Pacifier/pacifier_empire.gltf 's/pacifier_empire.bin/pacifier.bin/' gltf/Admonisher/pacifier_empire.bin
+
+# Hyena
+p gltf/Hyena/hyena_pirate.gltf 's/hyena_pirate.bin/hyena.bin/' gltf/Admonisher/hyena_pirate.bin
