@@ -9,3 +9,5 @@ then
 else
    blender "$1" -b -P export2gltf.py -- "$1" || exit 1
 fi
+
+./postprocess.sh
