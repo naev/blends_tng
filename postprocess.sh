@@ -26,3 +26,6 @@ p gltf/Pacifier/pacifier_empire.gltf 's/pacifier_empire.bin/pacifier.bin/' gltf/
 
 # Hyena
 p gltf/Hyena/hyena_pirate.gltf 's/hyena_pirate.bin/hyena.bin/' gltf/Admonisher/hyena_pirate.bin
+
+# Goddard
+p gltf/Goddard/goddard_dvaered.gltf 's/goddard_dvaered.bin/goddard.bin/' gltf/Admonisher/goddard_dvaered.bin
