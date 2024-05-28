@@ -17,3 +17,6 @@ p gltf/Admonisher/admonisher_empire.gltf 's/admonisher_empire.bin/admonisher.bin
 # Ancestor
 p gltf/Ancestor/ancestor_pirate.gltf 's/ancestor_pirate.bin/ancestor.bin/' gltf/Ancestor/ancestor_pirate.bin
 p gltf/Ancestor/ancestor_dvaered.gltf 's/ancestor_dvaered.bin/ancestor.bin/' gltf/Ancestor/ancestor_dvaered.bin
+
+# Kestrel
+p gltf/Kestrel/kestrel_pirate.gltf 's/kestrel_pirate.bin/kestrel.bin/' gltf/Kestrel/kestrel_pirate.bin
