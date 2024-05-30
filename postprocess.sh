@@ -22,10 +22,24 @@ p gltf/Ancestor/ancestor_dvaered.gltf 's/ancestor_dvaered.bin/ancestor.bin/' glt
 p gltf/Kestrel/kestrel_pirate.gltf 's/kestrel_pirate.bin/kestrel.bin/' gltf/Kestrel/kestrel_pirate.bin
 
 # Pacifier
-p gltf/Pacifier/pacifier_empire.gltf 's/pacifier_empire.bin/pacifier.bin/' gltf/Admonisher/pacifier_empire.bin
+p gltf/Pacifier/pacifier_empire.gltf 's/pacifier_empire.bin/pacifier.bin/' gltf/Pacifier/pacifier_empire.bin
+
+# Rhino
+p gltf/Rhino/rhino_pirate.gltf 's/rhino_pirate.bin/rhino.bin/' gltf/Rhino/rhino_pirate.bin
 
 # Hyena
-p gltf/Hyena/hyena_pirate.gltf 's/hyena_pirate.bin/hyena.bin/' gltf/Admonisher/hyena_pirate.bin
+p gltf/Hyena/hyena_pirate.gltf 's/hyena_pirate.bin/hyena.bin/' gltf/Hyena/hyena_pirate.bin
 
 # Goddard
-p gltf/Goddard/goddard_dvaered.gltf 's/goddard_dvaered.bin/goddard.bin/' gltf/Admonisher/goddard_dvaered.bin
+p gltf/Goddard/goddard_dvaered.gltf 's/goddard_dvaered.bin/goddard.bin/' gltf/Goddard/goddard_dvaered.bin
+
+# Lancelot
+p gltf/Lancelot/lancelot_empire.gltf 's/lancelot_empire.bin/lancelot.bin/' gltf/Lancelot/lancelot_empire.bin
+
+# Shark
+p gltf/Shark/shark_pirate.gltf 's/shark_pirate.bin/shark.bin/' gltf/Shark/shark_pirate.bin
+p gltf/Shark/shark_empire.gltf 's/shark_empire.bin/shark.bin/' gltf/Shark/shark_empire.bin
+
+# Vendetta
+p gltf/Vendetta/vendetta_pirate.gltf 's/vendetta_pirate.bin/vendetta.bin/' gltf/Vendetta/vendetta_pirate.bin
+p gltf/Vendetta/vendetta_dvaered.gltf 's/vendetta_dvaered.bin/vendetta.bin/' gltf/Vendetta/vendetta_dvaered.bin
