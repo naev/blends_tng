@@ -36,7 +36,7 @@ bpy.ops.export_scene.gltf( filepath=blenderpath, export_format='GLTF_SEPARATE', 
         export_extras=True, export_apply=True, use_visible=True )
 
 # And optimize
-ret = subprocess.run(["gltf-transform", "optimize", "--compress", "false", "--texture-compress", "auto", "--simplify", "false", "--instance", "false", "--texture-size", "1024", "--texture-compress", "webp", blenderpath, gltfpath ])
+ret = subprocess.run(["gltf-transform", "optimize", "--compress", "false", "--texture-compress", "webp", "--simplify", "false", "--instance", "false", "--texture-size", "1024", blenderpath, gltfpath ])
 if ret.returncode != 0:
     print("Problem optimizing mesh!")
     sys.exit(-1)
