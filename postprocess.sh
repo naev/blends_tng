@@ -36,6 +36,9 @@ p gltf/Hyena/hyena_pirate.gltf 's/hyena_pirate.bin/hyena.bin/' gltf/Hyena/hyena_
 # Goddard
 p gltf/Goddard/goddard_dvaered.gltf 's/goddard_dvaered.bin/goddard.bin/' gltf/Goddard/goddard_dvaered.bin
 
+# Vigilance
+p gltf/Vigilance/vigilance_dvaered.gltf 's/vigilance_dvaered.bin/vigilance.bin/' gltf/Vigilance/vigilance_dvaered.bin
+
 # Lancelot
 p gltf/Lancelot/lancelot_empire.gltf 's/lancelot_empire.bin/lancelot.bin/' gltf/Lancelot/lancelot_empire.bin
 
