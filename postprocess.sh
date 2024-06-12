@@ -24,6 +24,9 @@ p gltf/Kestrel/kestrel_pirate.gltf 's/kestrel_pirate.bin/kestrel.bin/' gltf/Kest
 # Pacifier
 p gltf/Pacifier/pacifier_empire.gltf 's/pacifier_empire.bin/pacifier.bin/' gltf/Pacifier/pacifier_empire.bin
 
+# Hawking
+p gltf/Hawking/hawking_empire.gltf 's/hawking_empire.bin/hawking.bin/' gltf/Hawking/hawking_empire.bin
+
 # Rhino
 p gltf/Rhino/rhino_pirate.gltf 's/rhino_pirate.bin/rhino.bin/' gltf/Rhino/rhino_pirate.bin
 
