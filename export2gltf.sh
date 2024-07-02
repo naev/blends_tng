@@ -9,7 +9,10 @@ then
       fi
    done
 else
-   blender "$1" -b -P export2gltf.py -- "$1" || exit 1
+   for var in "$@"
+   do
+      blender "$var" -b -P export2gltf.py -- "$var" || exit 1
+   done
 fi
 
 ./postprocess.sh
