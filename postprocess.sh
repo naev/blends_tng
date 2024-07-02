@@ -18,6 +18,10 @@ p gltf/Admonisher/admonisher_empire.gltf 's/admonisher_empire.bin/admonisher.bin
 p gltf/Ancestor/ancestor_pirate.gltf 's/ancestor_pirate.bin/ancestor.bin/' gltf/Ancestor/ancestor_pirate.bin
 p gltf/Ancestor/ancestor_dvaered.gltf 's/ancestor_dvaered.bin/ancestor.bin/' gltf/Ancestor/ancestor_dvaered.bin
 
+# Phalanx
+p gltf/Phalanx/phalanx_pirate.gltf 's/phalanx_pirate.bin/phalanx.bin/' gltf/Phalanx/phalanx_pirate.bin
+p gltf/Phalanx/phalanx_dvaered.gltf 's/phalanx_dvaered.bin/phalanx.bin/' gltf/Phalanx/phalanx_dvaered.bin
+
 # Kestrel
 p gltf/Kestrel/kestrel_pirate.gltf 's/kestrel_pirate.bin/kestrel.bin/' gltf/Kestrel/kestrel_pirate.bin
 
