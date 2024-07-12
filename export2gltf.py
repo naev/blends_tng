@@ -38,7 +38,7 @@ bpy.ops.export_scene.gltf( filepath=blenderpath, export_format='GLTF_SEPARATE', 
 # And optimize
 commands = (
     ["dedup",],
-    ["instance",],
+    #["instance",],
     ["palette",],
     #["flatten",], # breaks special nodes
     #["join",], # breaks special nodes
