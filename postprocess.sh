@@ -53,3 +53,17 @@ p gltf/Shark/shark_empire.gltf 's/shark_empire.bin/shark.bin/' gltf/Shark/shark_
 # Vendetta
 p gltf/Vendetta/vendetta_pirate.gltf 's/vendetta_pirate.bin/vendetta.bin/' gltf/Vendetta/vendetta_pirate.bin
 p gltf/Vendetta/vendetta_dvaered.gltf 's/vendetta_dvaered.bin/vendetta.bin/' gltf/Vendetta/vendetta_dvaered.bin
+
+# Shared textures
+mkdir -p gltf/textures/
+for TEX in textures/*.png; do
+   TEX=${TEX%.png}.webp
+   TEX=${TEX#textures/}
+   echo $TEX
+   for GLTF in gltf/*; do
+      if [[ $(dirname "${GLTF}/${TEX}") != "gltf/textures" && -f "${GLTF}/${TEX}" ]]; then
+         mv "${GLTF}/${TEX}" gltf/textures/
+         sed -i "s@\"${TEX}\"@\"../textures/${TEX}\"@" ${GLTF}/*.gltf
+      fi
+   done
+done
