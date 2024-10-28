@@ -1,5 +1,7 @@
 #!/bin/bash
 
+BLENDER="blender"
+
 if [ -z "$1" ]
 then
    for i in */*.blend
@@ -11,7 +13,7 @@ then
 else
    for var in "$@"
    do
-      blender "$var" -b -P export2gltf.py -- "$var" || exit 1
+      $BLENDER "$var" -b -P export2gltf.py -- "$var" || exit 1
    done
 fi
 
