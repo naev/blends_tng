@@ -5,8 +5,8 @@ function p () {
    SED="$2"
    BIN="$3"
    if [ -f "${GLTF}" ]; then
-      sed -i ${SED} "${GLTF}"
-      rm -f ${BIN}
+      sed -i "${SED}" "${GLTF}"
+      rm -f "${BIN}"
    fi
 }
 
@@ -60,11 +60,10 @@ mkdir -p gltf/textures/
 for TEX in textures/*.png; do
    TEX=${TEX%.png}.webp
    TEX=${TEX#textures/}
-   echo $TEX
    for GLTF in gltf/*; do
       if [[ $(dirname "${GLTF}/${TEX}") != "gltf/textures" && -f "${GLTF}/${TEX}" ]]; then
          mv "${GLTF}/${TEX}" gltf/textures/
-         sed -i "s@\"${TEX}\"@\"../textures/${TEX}\"@" ${GLTF}/*.gltf
+         sed -i "s@\"${TEX}\"@\"../textures/${TEX}\"@" "${GLTF}"/*.gltf
       fi
    done
 done
