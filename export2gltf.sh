@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BLENDER="blender"
+BLENDER="./blender-4.1.1-linux-x64.Appimage"
 
 if [ -z "$1" ]
 then

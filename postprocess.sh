@@ -13,6 +13,7 @@ function p () {
 # Admonisher
 p gltf/Admonisher/admonisher_pirate.gltf 's/admonisher_pirate.bin/admonisher.bin/' gltf/Admonisher/admonisher_pirate.bin
 p gltf/Admonisher/admonisher_empire.gltf 's/admonisher_empire.bin/admonisher.bin/' gltf/Admonisher/admonisher_empire.bin
+p gltf/Admonisher/admonisher_omegaiia.gltf 's/admonisher_omegaiia.bin/admonisher.bin/' gltf/Admonisher/admonisher_omegaiia.bin
 
 # Ancestor
 p gltf/Ancestor/ancestor_pirate.gltf 's/ancestor_pirate.bin/ancestor.bin/' gltf/Ancestor/ancestor_pirate.bin
