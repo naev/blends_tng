@@ -17,10 +17,9 @@ repos:
     - id: pretty-format-json
     - id: check-merge-conflict
       args: [--assume-in-merge]
-- repo: local
+- repo: https://github.com/shssoichiro/oxipng
+  rev: v9.1.5
   hooks:
-    - id: optipng
-      name: PNG Optimizer
-      entry: optipng
+    - id: oxipng
+      args: ["-o", "max", "--strip", "safe", "--alpha"]
       types: [png]
-      language: system
